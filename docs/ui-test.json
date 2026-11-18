@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "app": "parametric-pen-name",
+  "initial": true,
+  "fields": true,
+  "changed": true,
+  "symbols": true,
+  "restored": true,
+  "exported": true,
+  "dimensions": [
+    52.12107872962952,
+    18.952029705047607,
+    13.399999618530273
+  ],
+  "parts": 2,
+  "otherProjectTabs": 0
+}

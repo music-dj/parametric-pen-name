@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "platform": "Windows x64",
+  "exe": "ParametricPenName.exe",
+  "exitCode": 0,
+  "bundledRuntimeOnly": true,
+  "ui": {
+    "ok": true,
+    "app": "parametric-pen-name",
+    "initial": true,
+    "fields": true,
+    "changed": true,
+    "symbols": true,
+    "restored": true,
+    "exported": true,
+    "dimensions": [
+      52.12107872962952,
+      18.952029705047607,
+      13.399999618530273
+    ],
+    "parts": 2,
+    "otherProjectTabs": 0
+  },
+  "executableSHA256": "207853646fd0553430706aee4d2ef1fac8a492cc32001dcec739598c89d8a492",
+  "stlSHA256": "8f7ee6a8503499fbdbfb0b4bde5c628739a0f29e3951ec830c437559b58c2e45",
+  "threeMFSHA256": "d0ec143226d3015304adbc7815373476dcc468a93df2216edfdf2c20ab6e76b7"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "parametric-pen-name",
+  "version": "1.0.0",
+  "description": "Original OpenSCAD parametric pen-name topper with adjustable tunnel | اسم قلم بارامتري مع نفق قابل للتعديل",
+  "main": "main.cjs",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "test": "node test.mjs && node exporters.test.mjs",
+    "test:ui": "electron . --verify",
+    "build:windows": "node build.cjs"
+  },
+  "dependencies": {
+    "electron": "45.3.0",
+    "fflate": "0.8.3",
+    "manifold-3d": "3.5.4",
+    "three": "0.187.0"
+  }
+}

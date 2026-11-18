@@ -1,0 +1,78 @@
+{
+  "ok": true,
+  "app": "parametric-pen-name",
+  "cases": [
+    {
+      "variation": {},
+      "dimensions": [
+        52.12107872962952,
+        18.952029705047607,
+        13.399999618530273
+      ],
+      "closed": true,
+      "parts": 2,
+      "stlBytes": 172484,
+      "threeMFBytes": 47850
+    },
+    {
+      "variation": {
+        "holeOrientation": "TOPBOTTOM"
+      },
+      "dimensions": [
+        52.12107872962952,
+        18.952029705047607,
+        13.399999618530273
+      ],
+      "closed": true,
+      "parts": 2,
+      "stlBytes": 177284,
+      "threeMFBytes": 49357
+    },
+    {
+      "variation": {
+        "rtl": true,
+        "holeOrientation": "TOPBOTTOM",
+        "holeX": -21
+      },
+      "dimensions": [
+        52.120988607406616,
+        18.952029705047607,
+        13.399999618530273
+      ],
+      "closed": true,
+      "parts": 2,
+      "stlBytes": 178084,
+      "threeMFBytes": 49567
+    },
+    {
+      "variation": {
+        "text": "OLIVER",
+        "font": "luckiest"
+      },
+      "dimensions": [
+        55.9925696849823,
+        16.783980131149292,
+        13.399999618530273
+      ],
+      "closed": true,
+      "parts": 2,
+      "stlBytes": 116084,
+      "threeMFBytes": 33956
+    },
+    {
+      "variation": {
+        "autoHoleZ": false,
+        "holeZ": 5
+      },
+      "dimensions": [
+        52.12107872962952,
+        18.952029705047607,
+        13.399999618530273
+      ],
+      "closed": true,
+      "parts": 2,
+      "stlBytes": 172484,
+      "threeMFBytes": 47846
+    }
+  ]
+}

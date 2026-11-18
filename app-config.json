@@ -1,0 +1,161 @@
+{
+  "id": "pen",
+  "slug": "parametric-pen-name",
+  "title": "Parametric Pen Name",
+  "arabic": "اسم قلم بارامتري",
+  "description": "Original OpenSCAD parametric pen-name topper with adjustable tunnel | اسم قلم بارامتري مع نفق قابل للتعديل",
+  "generator": "pen-name.mjs",
+  "exportName": "generatePen",
+  "exe": "ParametricPenName",
+  "defaultText": "Mickey",
+  "scad": true,
+  "assets": [
+    "ComicNeue-Bold.ttf",
+    "ComicNeue-OFL.txt",
+    "LuckiestGuy-Regular.ttf",
+    "LuckiestGuy-LICENSE.txt",
+    "Amiri-Bold.ttf",
+    "Amiri-OFL.txt"
+  ],
+  "defaults": {
+    "text": "Mickey",
+    "font": "comic",
+    "penLetterHeight": 12,
+    "letterThickness": 1.4,
+    "baseHeight": 12,
+    "outlineMargin": 2.3,
+    "holeOrientation": "FRONTBACK",
+    "holeDiameter": 7.8,
+    "holeLength": 150,
+    "holeX": 21,
+    "holeY": 4,
+    "holeZ": 6,
+    "autoHoleZ": true,
+    "rtl": false,
+    "baseColor": "#1B40D1",
+    "topColor": "#FFFFFF"
+  },
+  "fields": [
+    {
+      "key": "font",
+      "label": "الخط / Font",
+      "type": "select",
+      "options": [
+        [
+          "comic",
+          "Comic Neue Bold"
+        ],
+        [
+          "luckiest",
+          "Luckiest Guy"
+        ],
+        [
+          "amiri",
+          "Amiri Bold"
+        ]
+      ]
+    },
+    {
+      "key": "penLetterHeight",
+      "label": "حجم الخط / Font size (mm)",
+      "type": "number",
+      "min": 6,
+      "max": 40,
+      "step": 0.5
+    },
+    {
+      "key": "letterThickness",
+      "label": "بروز الحروف / Raised height (mm)",
+      "type": "number",
+      "min": 0.4,
+      "max": 8,
+      "step": 0.1
+    },
+    {
+      "key": "baseHeight",
+      "label": "ارتفاع القاعدة / Base height (mm)",
+      "type": "number",
+      "min": 4,
+      "max": 40,
+      "step": 0.5
+    },
+    {
+      "key": "outlineMargin",
+      "label": "توسعة الإطار / Outline offset (mm)",
+      "type": "number",
+      "min": 0.5,
+      "max": 10,
+      "step": 0.1
+    },
+    {
+      "key": "rtl",
+      "label": "محاذاة يمين / Right alignment",
+      "type": "checkbox"
+    },
+    {
+      "key": "holeOrientation",
+      "label": "محور النفق / Tunnel axis",
+      "type": "select",
+      "options": [
+        [
+          "FRONTBACK",
+          "FRONTBACK / X"
+        ],
+        [
+          "TOPBOTTOM",
+          "TOPBOTTOM / Y"
+        ]
+      ]
+    },
+    {
+      "key": "holeDiameter",
+      "label": "قطر النفق / Tunnel diameter (mm)",
+      "type": "number",
+      "min": 1,
+      "max": 25,
+      "step": 0.1
+    },
+    {
+      "key": "holeLength",
+      "label": "طول النفق / Tunnel length (mm)",
+      "type": "number",
+      "min": 1,
+      "max": 500,
+      "step": 1
+    },
+    {
+      "key": "holeX",
+      "label": "موضع X / X position (mm)",
+      "type": "number",
+      "min": -500,
+      "max": 500,
+      "step": 0.5
+    },
+    {
+      "key": "holeY",
+      "label": "موضع Y / Y position (mm)",
+      "type": "number",
+      "min": -100,
+      "max": 100,
+      "step": 0.5
+    },
+    {
+      "key": "autoHoleZ",
+      "label": "Z تلقائي / Automatic Z",
+      "type": "checkbox"
+    },
+    {
+      "key": "holeZ",
+      "label": "موضع Z / Z position (mm)",
+      "type": "number",
+      "min": 0,
+      "max": 40,
+      "step": 0.1
+    }
+  ],
+  "samples": [
+    "Mickey",
+    "OLIVER"
+  ],
+  "note": "يستخدم الكود الأصلي دون حماية أو توسيط X/Y تلقائي. الإحداثيات قبل توسيط المعاينة. / Original SCAD geometry; no automatic sleeve or X/Y repositioning."
+}

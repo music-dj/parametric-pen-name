@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "source": "Keychain Studio 1.7.0-beta.1",
+  "configuration": {
+    "text": "Mickey",
+    "font": "comic",
+    "penLetterHeight": 12,
+    "letterThickness": 1.4,
+    "baseHeight": 12,
+    "outlineMargin": 2.3,
+    "holeOrientation": "FRONTBACK",
+    "holeDiameter": 7.8,
+    "holeLength": 150,
+    "holeX": 21,
+    "holeY": 4,
+    "holeZ": 6,
+    "autoHoleZ": true,
+    "rtl": false,
+    "baseColor": "#1B40D1",
+    "topColor": "#FFFFFF"
+  },
+  "dimensionsIdentical": true,
+  "previewPartsSHA256": "d8172db8c2c662eedb04035900e0519aa9135e16e8ba025fe227d188148abc7c",
+  "previewPartsIdentical": true
+}
